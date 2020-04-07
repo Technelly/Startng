@@ -1,0 +1,105 @@
+body {
+  background-color: #062863;
+}
+
+
+
+.pdtop {
+  color: #083e9e;
+}
+/* form container */
+.container {
+  margin: auto;
+  width: 35%;
+}
+
+/* this is the logo/login center align */
+.piggy_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 3rem;
+  padding-top: 30px;
+}
+
+/* this is the form input design */
+.pd {
+  padding-left: 10px;
+  background-color: #f1f3f4;
+  width: 80%;
+}
+
+/* form details */
+.space {
+  line-height: 2;
+  margin-bottom: 2rem;
+  color: #4a5568;
+  font-family: sans-serif;
+}
+.top {
+  text-align: center;
+  color: #4a5568;
+  font-family: sans-serif;
+}
+.text {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.bg {
+  background-color: #fff;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+/* form item divs */
+.bottom {
+  margin-left: 40px;
+}
+
+.bgcolor {
+  padding-top: 14px;
+  padding-bottom: 12px;
+  border-radius: .25rem;
+}
+
+.btn {
+  width: 85%;
+  background-color: #005082;
+color: #fff;
+  margin-top: 25px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  border-bottom-right-radius: .75rem;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #062863;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.select {
+  width: 85%;
+  background-color: #edf2f7;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  border-radius: .35rem;
+  border-style: solid;
+}
+
+.login {
+  color: #fff;
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+  font-size: .75rem;
+  text-align: center;
+}
