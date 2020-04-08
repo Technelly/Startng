@@ -1,0 +1,33 @@
+
+let Data = [
+{ Principal: 2500, time: 1.8 },
+{ Principal: 1000, time: 5 },
+{ Principal: 3000, time: 1 },
+{ Principal: 2000, time: 3 },
+ ];
+function interestCalculator(Data) {
+    let interestData = [];
+    for (let item of Data) {
+        let rate = 0;
+        if (item.Principal >= 2500 && 1 < item.time < 3) {
+            let rate = 3
+        } else if (item.Principal >= 2500 && item.time >= 3) {
+            rate = 4;
+        } else if (item.Principal < 2500 || item.time <= 1) {
+            rate = 2;
+        } else {
+            rate = 1;
+        }
+        let interest = (item.Principal * item.time * rate) / 100;
+        interestData.push({
+            Principal: item.Principal,
+            time: item.time,
+            rate: rate,
+            interest: interest,
+        });
+
+}
+console.log(interestData);
+return interestData
+}
+interestCalculator(Data)
