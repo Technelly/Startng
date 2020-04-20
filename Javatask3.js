@@ -1,31 +1,22 @@
-function Divisibles(number) {
-
-    var output = [];
-
-    for(var i = 1; i <= number; i++){
-
-        if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0){
-            output.push("yu-gi-oh");
-        }else if (i % 2 === 0 && i % 3 === 0){
-            output.push("yu-gi");
-        }else if(i % 2 === 0 && i % 5 === 0){
-            output.push("yu-oh");
-        }else if (i % 3 === 0 && i % 5 === 0){
-            output.push("gi-oh");
-        }else if (i % 2 === 0){
-            output.push("yu");
-        }else if (i % 3 === 0){
-            output.push("gi");
-        }else if (i % 5 === 0){
-            output.push("oh");
-        }else{
-            output.push(i);
-        }
-    }
-
-    console.log(output);
-    return output;
+var output = [];
+var number = 1;
+function Divisibles(count) {
+ while (number <= count) {
+  if (number % 2 === 0 && number % 3 === 0 && number % 5 === 0) {
+    output.push("yu-gi-oh")
+  }
+  else if (number % 2 === 0) {
+    output.push("yu")
+  } else if (number % 3 === 0) {
+    output.push("gi")
+  } else if (number % 5 === 0) {
+    output.push("oh")
+  } else {
+    output.push(number);
+  }
+   number++;
+  }
+  console.log(output);
 }
-
-Divisibles(100);
-Divisibles(37); 
+Divisibles(45);
+Divisibles(100); 
