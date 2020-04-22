@@ -1,6 +1,7 @@
-var output = [];
-var number = 1;
+
 function Divisibles(count) {
+ var output = [];
+var number = 1;
  while (number <= count) {
   if (number % 2 === 0 && number % 3 === 0 && number % 5 === 0) {
     output.push("yu-gi-oh")
@@ -18,5 +19,5 @@ function Divisibles(count) {
   }
   console.log(output);
 }
-Divisibles(45);
-Divisibles(100); 
+Divisibles(100);
+Divisibles(45); 
