@@ -21,5 +21,6 @@ function Divisibles(count) {
 Divisibles(100);
 Divisibles(45);
 // When i saw this task, i knew its fizzBuzz but didn't know how to go about calling function twice. 
-// But thank God for google i was able to fix the error after several hours of trying. i learnt something knew.
+// But thank God for google and you pointing my error "my function does'nt have any parameter"
+// i was able to fix the error after several hours of trying. i learnt something knew.
 // i almost cried but God no shame me o.
